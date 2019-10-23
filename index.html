@@ -1,1 +1,75 @@
 <!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>A fantastical adventure</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Shouting Maching</h1>
+        <form id="formTwo">
+          <div class="form-group">
+            <label for="whisper">Whisper something: </label>
+            <input id="whisper" class="form-control" type="text">
+            <button type="submit" class="btn">Shout at me!</button>
+          </div>
+        </form>
+      <h2 class="shout"></h2>
+
+
+      <hr>
+
+
+      <h1>Fill in the blanks to write your story!</h1>
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="person1">Name of a person: </label>
+            <input id="person1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="person2">Name of another person: </label>
+            <input id="person2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="adjective1">Adjective: </label>
+            <input id="adjective1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="islandname">Name of an uncharted island: </label>
+            <input id="islandname" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="adjective2">Another adjective: </label>
+            <input id="adjective2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="monstername">Name of monster: </label>
+            <input id="monstername" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="animal">An animal (plural): </label>
+            <input id="animal" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="exclamation">An exclamation/explitive: </label>
+            <input id="exclamation" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Show me the story!</button>
+        </form>
+      </div>
+
+      <div id="story">
+        <h1>A fantastical adventure</h1>
+        <p>
+          Once upon a time, <span class="person1"></span> and <span class="person2"></span> went on a <span class="adjective1"></span> adventure. They went to <span class="islandname"></span> island in the middle of the Caribbean - an island with a <span class="adjective2"></span> history. When <span class="person1"></span> and <span class="person2"></span> arrived on <span class="islandname"></span>, they quickly realized it was home to none other than <span class="monstername"></span> (which look an awful lot like <span class="animal"></span>). "<span class="exclamation"></span>!" they yelled. Our heroes were captured and never heard from again.
+          FIN.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

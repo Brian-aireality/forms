@@ -1,0 +1,8 @@
+div#story {
+  display: none;
+}
+
+span {
+  font-weight: bold;
+  color: red;
+}
